@@ -14,7 +14,7 @@ export default function App() {
     <div>
         <Routes>
         <Route exact path='/' element={<Main/>}></Route>
-        <Route exact path='/trains/:id' element={<TrainPage/>}></Route>
+        <Route exact path='/trains/:trainNumber' element={<TrainPage/>}></Route>
         </Routes>
     </div>
   );
